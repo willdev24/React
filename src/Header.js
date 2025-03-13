@@ -5,7 +5,7 @@ function header({titulo}){
  return(
    <header className="header">
    <h1>{titulo}</h1>
-   <h2>sub titulo</h2>
+   <h2>GUSTAVO LARANGEIRA</h2>
    </header>
     
     )
