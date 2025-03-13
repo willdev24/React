@@ -1,0 +1,19 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+    
+
+.CORPO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}  
+.CORPO p{
+    width: 50%;
+    margin-top: 3%;
+}
+h2{
+    font-size: 40px;
+}
