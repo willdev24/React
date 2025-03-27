@@ -7,8 +7,10 @@ const Content = ({titulo, children})=>{
         <article className="CORPO">
            <h2>{titulo}</h2>
            {children}
+          
         </article>
     )
 }
 
 export default  Content
+

@@ -1,6 +1,20 @@
 import React from "react";
 import Header from "./Header";
 import Content from "./content";
+import Card from "./Card";
+
+
+//IMPORT REACT
+//funçao que retorna js
+//sempre tem que ter um elementopai
+//react fragment
+//exporta funçao
+//para usar o componente
+//usar como tag
+//
+
+
+
 
 function App(){
     return(
@@ -35,6 +49,7 @@ function App(){
             6 Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida; e habitarei na casa do Senhor por longos dias.
             </p>
         </Content>
+        <Card></Card>
         </>
     )
 }
