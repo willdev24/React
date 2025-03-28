@@ -1,12 +1,15 @@
 import React from "react";
 import "./Card.css"
 
-const card = ()=>{
+const card = ({itens,imagem})=>{
 
 return(
-
     <div className="card">
-     card
+        <div>
+         <a></a>        
+         </div>
+         <p> {itens}</p>
+
     </div>
 
 )

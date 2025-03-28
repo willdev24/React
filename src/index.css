@@ -1,0 +1,11 @@
+
+div .corpo{
+    background-color: aqua;
+}
+
+div .corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}

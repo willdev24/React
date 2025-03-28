@@ -3,6 +3,7 @@
 .card{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 33%;
     background: rgb(235,235, 235);
     padding: 20px;
@@ -10,3 +11,17 @@
     box-shadow: 0 0 rgb(249, 8, 8);
 
 }
+
+
+div .corpo .card{
+    position: static;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+
+ .card:hover{
+    color: aliceblue;
+background: black;
+
+}
+
