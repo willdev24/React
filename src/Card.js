@@ -1,14 +1,15 @@
 import React from "react";
 import "./Card.css"
 
-const card = ({itens,imagem})=>{
+const card = ({imagem,itens,texto})=>{
 
 return(
     <div className="card">
-        <div>
-         <a></a>        
+        <div className="foto">
+         <img src={imagem}/>
          </div>
          <p> {itens}</p>
+         <p >{texto}</p>
 
     </div>
 
