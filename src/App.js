@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Content from "./content";
 import Card from "./Card";
-
+import img1 from "./test.avif"
 
 //IMPORT REACT
 //funçao que retorna js
@@ -39,7 +39,7 @@ function App(){
             </p>
         </Content>
         <Card itens="cards"
-          imagem="https://cdn-imgix.headout.com/tour/7064/TOUR-IMAGE/b2c74200-8da7-439a-95b6-9cad1aa18742-4445-dubai-img-worlds-of-adventure-tickets-02.jpeg?auto=format&w=900&h=562.5&q=90&fit=crop&ar=16%3A10"
+          imagem =  {img1}
           titulo=" titulo 1"
           texto="4 Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.
                  5 Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.
