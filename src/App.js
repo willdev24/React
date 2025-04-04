@@ -2,7 +2,11 @@ import React from "react";
 import Header from "./Header";
 import Content from "./content";
 import Card from "./Card";
+import Cards from "./cards";
+
 import img1 from "./test.avif"
+import img2 from "./test3.png"
+import img3 from "./test2.png"
 
 //IMPORT REACT
 //funçao que retorna js
@@ -11,10 +15,6 @@ import img1 from "./test.avif"
 //exporta funçao
 //para usar o componente
 //usar como tag
-//
-
-
-
 
 function App(){
     return(
@@ -37,14 +37,32 @@ function App(){
             5 Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.
             6 Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida; e habitarei na casa do Senhor por longos dias.
             </p>
-        </Content>
-        <Card itens="cards"
-          imagem =  {img1}
-          titulo=" titulo 1"
-          texto="4 Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.
-                 5 Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.
-                 6 Certamente que a "
-    />
+       
+       </Content>
+
+      <Cards> 
+            <Card itens="cards"
+            imagem =  {img1}
+            titulo=" titulo 1"
+            texto="4 Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.
+                    5 Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.
+                    6 Certamente que a "
+            />
+            <Card itens="cards"
+                imagem =  {img2}
+                titulo=" titulo 2"
+                texto="4 Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.
+                        5 Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.
+                        6 Certamente que a "
+            />
+            <Card itens="cards"
+                imagem =  {img3}
+                titulo=" titulo 3"
+                texto="4 Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.
+                        5 Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.
+                        6 Certamente que a "
+             />
+       </Cards>
         </div>
     )
 }
